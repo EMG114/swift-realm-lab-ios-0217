@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FBC840D1E9D2AE5002F76E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC840C1E9D2AE5002F76E7 /* AppDelegate.swift */; };
+		8FBC840F1E9D2AE5002F76E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC840E1E9D2AE5002F76E7 /* ViewController.swift */; };
+		8FBC84121E9D2AE5002F76E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC84101E9D2AE5002F76E7 /* Main.storyboard */; };
+		8FBC84141E9D2AE5002F76E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC84131E9D2AE5002F76E7 /* Assets.xcassets */; };
+		8FBC84171E9D2AE5002F76E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC84151E9D2AE5002F76E7 /* LaunchScreen.storyboard */; };
+		8FBC84221E9D2AE5002F76E7 /* TvGuideRealmLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84211E9D2AE5002F76E7 /* TvGuideRealmLabTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FBC841E1E9D2AE5002F76E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FBC84011E9D2AE5002F76E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBC84081E9D2AE5002F76E7;
+			remoteInfo = TvGuideRealmLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FBC84091E9D2AE5002F76E7 /* TvGuideRealmLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvGuideRealmLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBC840C1E9D2AE5002F76E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FBC840E1E9D2AE5002F76E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FBC84111E9D2AE5002F76E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FBC84131E9D2AE5002F76E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FBC84161E9D2AE5002F76E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FBC84181E9D2AE5002F76E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBC841D1E9D2AE5002F76E7 /* TvGuideRealmLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvGuideRealmLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBC84211E9D2AE5002F76E7 /* TvGuideRealmLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvGuideRealmLabTests.swift; sourceTree = "<group>"; };
+		8FBC84231E9D2AE5002F76E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FBC84061E9D2AE5002F76E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBC841A1E9D2AE5002F76E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FBC84001E9D2AE5002F76E7 = {
+			isa = PBXGroup;
+			children = (
+				8FBC840B1E9D2AE5002F76E7 /* TvGuideRealmLab */,
+				8FBC84201E9D2AE5002F76E7 /* TvGuideRealmLabTests */,
+				8FBC840A1E9D2AE5002F76E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FBC840A1E9D2AE5002F76E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC84091E9D2AE5002F76E7 /* TvGuideRealmLab.app */,
+				8FBC841D1E9D2AE5002F76E7 /* TvGuideRealmLabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FBC840B1E9D2AE5002F76E7 /* TvGuideRealmLab */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC840C1E9D2AE5002F76E7 /* AppDelegate.swift */,
+				8FBC840E1E9D2AE5002F76E7 /* ViewController.swift */,
+				8FBC84101E9D2AE5002F76E7 /* Main.storyboard */,
+				8FBC84131E9D2AE5002F76E7 /* Assets.xcassets */,
+				8FBC84151E9D2AE5002F76E7 /* LaunchScreen.storyboard */,
+				8FBC84181E9D2AE5002F76E7 /* Info.plist */,
+			);
+			path = TvGuideRealmLab;
+			sourceTree = "<group>";
+		};
+		8FBC84201E9D2AE5002F76E7 /* TvGuideRealmLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC84211E9D2AE5002F76E7 /* TvGuideRealmLabTests.swift */,
+				8FBC84231E9D2AE5002F76E7 /* Info.plist */,
+			);
+			path = TvGuideRealmLabTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FBC84081E9D2AE5002F76E7 /* TvGuideRealmLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBC84261E9D2AE5002F76E7 /* Build configuration list for PBXNativeTarget "TvGuideRealmLab" */;
+			buildPhases = (
+				8FBC84051E9D2AE5002F76E7 /* Sources */,
+				8FBC84061E9D2AE5002F76E7 /* Frameworks */,
+				8FBC84071E9D2AE5002F76E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TvGuideRealmLab;
+			productName = TvGuideRealmLab;
+			productReference = 8FBC84091E9D2AE5002F76E7 /* TvGuideRealmLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FBC841C1E9D2AE5002F76E7 /* TvGuideRealmLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBC84291E9D2AE5002F76E7 /* Build configuration list for PBXNativeTarget "TvGuideRealmLabTests" */;
+			buildPhases = (
+				8FBC84191E9D2AE5002F76E7 /* Sources */,
+				8FBC841A1E9D2AE5002F76E7 /* Frameworks */,
+				8FBC841B1E9D2AE5002F76E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FBC841F1E9D2AE5002F76E7 /* PBXTargetDependency */,
+			);
+			name = TvGuideRealmLabTests;
+			productName = TvGuideRealmLabTests;
+			productReference = 8FBC841D1E9D2AE5002F76E7 /* TvGuideRealmLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FBC84011E9D2AE5002F76E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Johann Kerr";
+				TargetAttributes = {
+					8FBC84081E9D2AE5002F76E7 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = WNAGBXF4G9;
+						ProvisioningStyle = Automatic;
+					};
+					8FBC841C1E9D2AE5002F76E7 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = WNAGBXF4G9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FBC84081E9D2AE5002F76E7;
+					};
+				};
+			};
+			buildConfigurationList = 8FBC84041E9D2AE5002F76E7 /* Build configuration list for PBXProject "TvGuideRealmLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FBC84001E9D2AE5002F76E7;
+			productRefGroup = 8FBC840A1E9D2AE5002F76E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FBC84081E9D2AE5002F76E7 /* TvGuideRealmLab */,
+				8FBC841C1E9D2AE5002F76E7 /* TvGuideRealmLabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FBC84071E9D2AE5002F76E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBC84171E9D2AE5002F76E7 /* LaunchScreen.storyboard in Resources */,
+				8FBC84141E9D2AE5002F76E7 /* Assets.xcassets in Resources */,
+				8FBC84121E9D2AE5002F76E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBC841B1E9D2AE5002F76E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FBC84051E9D2AE5002F76E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBC840F1E9D2AE5002F76E7 /* ViewController.swift in Sources */,
+				8FBC840D1E9D2AE5002F76E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBC84191E9D2AE5002F76E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBC84221E9D2AE5002F76E7 /* TvGuideRealmLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FBC841F1E9D2AE5002F76E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FBC84081E9D2AE5002F76E7 /* TvGuideRealmLab */;
+			targetProxy = 8FBC841E1E9D2AE5002F76E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FBC84101E9D2AE5002F76E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBC84111E9D2AE5002F76E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FBC84151E9D2AE5002F76E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBC84161E9D2AE5002F76E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FBC84241E9D2AE5002F76E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FBC84251E9D2AE5002F76E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FBC84271E9D2AE5002F76E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WNAGBXF4G9;
+				INFOPLIST_FILE = TvGuideRealmLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johannkerr.TvGuideRealmLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8FBC84281E9D2AE5002F76E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WNAGBXF4G9;
+				INFOPLIST_FILE = TvGuideRealmLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johannkerr.TvGuideRealmLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8FBC842A1E9D2AE5002F76E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WNAGBXF4G9;
+				INFOPLIST_FILE = TvGuideRealmLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johannkerr.TvGuideRealmLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvGuideRealmLab.app/TvGuideRealmLab";
+			};
+			name = Debug;
+		};
+		8FBC842B1E9D2AE5002F76E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WNAGBXF4G9;
+				INFOPLIST_FILE = TvGuideRealmLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johannkerr.TvGuideRealmLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvGuideRealmLab.app/TvGuideRealmLab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FBC84041E9D2AE5002F76E7 /* Build configuration list for PBXProject "TvGuideRealmLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBC84241E9D2AE5002F76E7 /* Debug */,
+				8FBC84251E9D2AE5002F76E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBC84261E9D2AE5002F76E7 /* Build configuration list for PBXNativeTarget "TvGuideRealmLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBC84271E9D2AE5002F76E7 /* Debug */,
+				8FBC84281E9D2AE5002F76E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FBC84291E9D2AE5002F76E7 /* Build configuration list for PBXNativeTarget "TvGuideRealmLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBC842A1E9D2AE5002F76E7 /* Debug */,
+				8FBC842B1E9D2AE5002F76E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FBC84011E9D2AE5002F76E7 /* Project object */;
+}
