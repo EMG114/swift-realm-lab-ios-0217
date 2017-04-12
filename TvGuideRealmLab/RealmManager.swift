@@ -10,30 +10,43 @@ import Foundation
 import RealmSwift
 import Realm
 
+class Task: Object {
+    dynamic var content: String = ""
+    
+    convenience init(_ content: String) {
+        self.init()
+        self.content = content
+    }
+}
+
+
+
+
 
 class RealmManager {
-    class func favoriteShow(_ show: Show) {
-        let savedShow = SavedShow(show)
+    
+    class func savePet() {
+        let task = Task("Wash Dishes")
         let realm = try! Realm()
         try! realm.write {
-            realm.add(savedShow)
+            realm.add(task)
         }
     }
     
+    
+    class func getPets() {
+        
+        
+    }
+    
+    
+    
+    
+    class func favoriteShow(_ show: Show) {
+        
+    }
+    
     class func favoriteEpisode(_ episode: Episode, to show: Show) {
-        
-        let newEpisode = SavedEpisode(episode)
-        let realm = try! Realm()
-        if let foundshow = realm.objects(SavedShow).filter("id == \(show.id)").first {
-            
-            try! realm.write {
-                foundshow.episodes.append(newEpisode)
-            }
-            
-        }
-        
-      
-        
         
     }
     

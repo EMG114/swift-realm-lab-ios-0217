@@ -10,7 +10,7 @@ import Foundation
 import SwiftyJSON
 
 
-class Show: ShowProtocol {
+class Show {
     var name: String
     var summary: String
     var imageUrl: String
@@ -28,16 +28,10 @@ class Show: ShowProtocol {
     
     init(_ dict: JSON) {
         self.name = dict["name"].stringValue
-        self.summary = dict["summary"].stringValue.removeHTMLPTags()
+        self.summary = dict["summary"].stringValue
         self.imageUrl = dict["image"]["medium"].stringValue
         self.id = dict["id"].intValue
         self.rating = dict["rating"]["average"].doubleValue
     }
 }
 
-
-extension String {
-    func removeHTMLPTags() -> String {
-        return self.replacingOccurrences(of: "<p>", with: "").replacingOccurrences(of: "</p>", with: "")
-    }
-}

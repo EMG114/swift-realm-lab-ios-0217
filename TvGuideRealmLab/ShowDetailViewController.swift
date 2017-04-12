@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import RealmSwift
-import Realm
+
 
 class ShowDetailViewController: UIViewController {
     
@@ -36,17 +35,11 @@ class ShowDetailViewController: UIViewController {
     }
     
     @IBAction func faveBtnPressed(_ sender: Any) {
-        let savedShow = SavedShow(show)
-        let realm = try! Realm()
-        try! realm.write {
-            realm.add(savedShow, update: true)
-           // realm.add(savedShow)
-        }
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destVC = segue.destination as! EpisodeViewController
-        
         destVC.show = self.show
         
     }

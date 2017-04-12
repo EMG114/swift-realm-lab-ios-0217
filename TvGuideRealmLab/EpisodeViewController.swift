@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import Realm
-import RealmSwift
+
 
 class EpisodeViewController: UITableViewController {
 
@@ -34,7 +33,6 @@ class EpisodeViewController: UITableViewController {
 
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
         return self.episodes.count
     }
 
@@ -58,30 +56,10 @@ class EpisodeViewController: UITableViewController {
 
 extension EpisodeViewController: SavedEpisodeDelegate {
     func saveEpisode(_ cell: UITableViewCell) {
-        print("saving Cell")
+    
         if let indexPath = self.tableView.indexPath(for: cell) {
-            
-            
-            
-            
             let episode = self.episodes[indexPath.row]
-            let savedEpisode = SavedEpisode(episode)
-            let realm = try! Realm()
-            if let foundshow = realm.objects(SavedShow.self).filter("id == \(show.id)").first {
-                print("Found show\(foundshow)")
-                //
-                
-                
-                
-                try! realm.write {
-                    foundshow.episodes.append(savedEpisode)
-                    //realm.add(foundshow, update: true)
-                }
-                
-            } else {
-                print("didn't find show")
-            }
-            
+          
             
             
         }

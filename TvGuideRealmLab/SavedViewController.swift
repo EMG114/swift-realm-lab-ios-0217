@@ -7,17 +7,13 @@
 //
 
 import UIKit
-import Realm
-import RealmSwift
 
 class SavedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let realm = try! Realm()
-        let shows = realm.objects(SavedShow.self)
-        let episodes = realm.objects(SavedEpisode.self)
+  
                 
     }
 
