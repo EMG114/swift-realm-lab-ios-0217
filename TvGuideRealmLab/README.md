@@ -69,6 +69,8 @@ Voila! As you can see Realm is alot easier than Core Data. The challenge for you
 
 ## Instructions
 
+![](https://youtu.be/J4hdWoBFkGU)
+
 1. Watch the video to see how this app is expected to be laid out.
 2. Using the information above complete our two Realm classes `SavedEpisode` and `SavedShow`. **Hint** You may also want to write a way to convert an `Episode` object into a `SavedEpisode` object. 
 3. To complete these two objects you will want to provide them a way of accessing each other. 
