@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13AA8A649DA998E380F9BFA9 /* Pods_TvGuideRealmLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752D848D6FAEA8AE2F57A6A2 /* Pods_TvGuideRealmLab.framework */; };
+		8F360C711E9EB3C0006B9260 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8F360C701E9EB3C0006B9260 /* README.md */; };
 		8FBC840D1E9D2AE5002F76E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC840C1E9D2AE5002F76E7 /* AppDelegate.swift */; };
 		8FBC840F1E9D2AE5002F76E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC840E1E9D2AE5002F76E7 /* ViewController.swift */; };
 		8FBC84121E9D2AE5002F76E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC84101E9D2AE5002F76E7 /* Main.storyboard */; };
 		8FBC84141E9D2AE5002F76E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC84131E9D2AE5002F76E7 /* Assets.xcassets */; };
 		8FBC84171E9D2AE5002F76E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBC84151E9D2AE5002F76E7 /* LaunchScreen.storyboard */; };
 		8FBC84221E9D2AE5002F76E7 /* TvGuideRealmLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84211E9D2AE5002F76E7 /* TvGuideRealmLabTests.swift */; };
+		8FBC842D1E9D2BDF002F76E7 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC842C1E9D2BDF002F76E7 /* Show.swift */; };
+		8FBC842F1E9D2D18002F76E7 /* TVMazeApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC842E1E9D2D18002F76E7 /* TVMazeApiClient.swift */; };
+		8FBC84311E9D2D7B002F76E7 /* ShowDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84301E9D2D7B002F76E7 /* ShowDataStore.swift */; };
+		8FBC84331E9D2F7F002F76E7 /* ShowViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84321E9D2F7F002F76E7 /* ShowViewCell.swift */; };
+		8FBC84351E9D35D9002F76E7 /* ShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84341E9D35D9002F76E7 /* ShowDetailViewController.swift */; };
+		8FBC84371E9D5EFE002F76E7 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84361E9D5EFE002F76E7 /* EpisodeCell.swift */; };
+		8FBC84391E9D60FB002F76E7 /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84381E9D60FB002F76E7 /* EpisodeViewController.swift */; };
+		8FBC843B1E9D650B002F76E7 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC843A1E9D650B002F76E7 /* SavedViewController.swift */; };
+		8FBC84421E9D656A002F76E7 /* SavedShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84411E9D656A002F76E7 /* SavedShow.swift */; };
+		8FBC84441E9D6617002F76E7 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84431E9D6617002F76E7 /* Episode.swift */; };
+		8FBC84461E9D6637002F76E7 /* SavedEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84451E9D6637002F76E7 /* SavedEpisode.swift */; };
+		8FBC84481E9DD12F002F76E7 /* SavedShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84471E9DD12F002F76E7 /* SavedShowViewController.swift */; };
+		8FBC844A1E9DD161002F76E7 /* SavedEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84491E9DD161002F76E7 /* SavedEpisodeViewController.swift */; };
+		8FBC844C1E9DECBB002F76E7 /* ShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC844B1E9DECBB002F76E7 /* ShowTableViewCell.swift */; };
+		8FBC844E1E9DEF45002F76E7 /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC844D1E9DEF45002F76E7 /* EpisodeTableViewCell.swift */; };
+		8FBC84501E9DF594002F76E7 /* EpisodeListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC844F1E9DF594002F76E7 /* EpisodeListTableViewController.swift */; };
+		8FBC84521E9E6F1C002F76E7 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC84511E9E6F1C002F76E7 /* RealmManager.swift */; };
+		B881BF8ADC1DEFBC6D7B7D38 /* Pods_TvGuideRealmLabTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE999000ABA8A86AC7DFC3CD /* Pods_TvGuideRealmLabTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32BA8FD1D109412A0EDCDCEB /* Pods-TvGuideRealmLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvGuideRealmLabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TvGuideRealmLabTests/Pods-TvGuideRealmLabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		752D848D6FAEA8AE2F57A6A2 /* Pods_TvGuideRealmLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvGuideRealmLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F360C701E9EB3C0006B9260 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8F61EADF8764F635CFD32699 /* Pods-TvGuideRealmLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvGuideRealmLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TvGuideRealmLab/Pods-TvGuideRealmLab.debug.xcconfig"; sourceTree = "<group>"; };
 		8FBC84091E9D2AE5002F76E7 /* TvGuideRealmLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvGuideRealmLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBC840C1E9D2AE5002F76E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FBC840E1E9D2AE5002F76E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +60,26 @@
 		8FBC841D1E9D2AE5002F76E7 /* TvGuideRealmLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvGuideRealmLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBC84211E9D2AE5002F76E7 /* TvGuideRealmLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvGuideRealmLabTests.swift; sourceTree = "<group>"; };
 		8FBC84231E9D2AE5002F76E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBC842C1E9D2BDF002F76E7 /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
+		8FBC842E1E9D2D18002F76E7 /* TVMazeApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVMazeApiClient.swift; sourceTree = "<group>"; };
+		8FBC84301E9D2D7B002F76E7 /* ShowDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDataStore.swift; sourceTree = "<group>"; };
+		8FBC84321E9D2F7F002F76E7 /* ShowViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewCell.swift; sourceTree = "<group>"; };
+		8FBC84341E9D35D9002F76E7 /* ShowDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailViewController.swift; sourceTree = "<group>"; };
+		8FBC84361E9D5EFE002F76E7 /* EpisodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		8FBC84381E9D60FB002F76E7 /* EpisodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		8FBC843A1E9D650B002F76E7 /* SavedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		8FBC84411E9D656A002F76E7 /* SavedShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedShow.swift; sourceTree = "<group>"; };
+		8FBC84431E9D6617002F76E7 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		8FBC84451E9D6637002F76E7 /* SavedEpisode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedEpisode.swift; sourceTree = "<group>"; };
+		8FBC84471E9DD12F002F76E7 /* SavedShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedShowViewController.swift; sourceTree = "<group>"; };
+		8FBC84491E9DD161002F76E7 /* SavedEpisodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedEpisodeViewController.swift; sourceTree = "<group>"; };
+		8FBC844B1E9DECBB002F76E7 /* ShowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTableViewCell.swift; sourceTree = "<group>"; };
+		8FBC844D1E9DEF45002F76E7 /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
+		8FBC844F1E9DF594002F76E7 /* EpisodeListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeListTableViewController.swift; sourceTree = "<group>"; };
+		8FBC84511E9E6F1C002F76E7 /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		A6BC6C4525FA58DF690A327F /* Pods-TvGuideRealmLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvGuideRealmLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-TvGuideRealmLab/Pods-TvGuideRealmLab.release.xcconfig"; sourceTree = "<group>"; };
+		E57FA6B1CDB1ED21C43A22E6 /* Pods-TvGuideRealmLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvGuideRealmLabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TvGuideRealmLabTests/Pods-TvGuideRealmLabTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE999000ABA8A86AC7DFC3CD /* Pods_TvGuideRealmLabTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TvGuideRealmLabTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13AA8A649DA998E380F9BFA9 /* Pods_TvGuideRealmLab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +95,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B881BF8ADC1DEFBC6D7B7D38 /* Pods_TvGuideRealmLabTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56C63178A1E783CD5CAC419A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F61EADF8764F635CFD32699 /* Pods-TvGuideRealmLab.debug.xcconfig */,
+				A6BC6C4525FA58DF690A327F /* Pods-TvGuideRealmLab.release.xcconfig */,
+				32BA8FD1D109412A0EDCDCEB /* Pods-TvGuideRealmLabTests.debug.xcconfig */,
+				E57FA6B1CDB1ED21C43A22E6 /* Pods-TvGuideRealmLabTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8FBC84001E9D2AE5002F76E7 = {
 			isa = PBXGroup;
 			children = (
 				8FBC840B1E9D2AE5002F76E7 /* TvGuideRealmLab */,
 				8FBC84201E9D2AE5002F76E7 /* TvGuideRealmLabTests */,
 				8FBC840A1E9D2AE5002F76E7 /* Products */,
+				56C63178A1E783CD5CAC419A /* Pods */,
+				A9F19424A90B9601C855CE24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,11 +137,15 @@
 			isa = PBXGroup;
 			children = (
 				8FBC840C1E9D2AE5002F76E7 /* AppDelegate.swift */,
-				8FBC840E1E9D2AE5002F76E7 /* ViewController.swift */,
+				8FBC843D1E9D6537002F76E7 /* Models */,
+				8FBC843E1E9D653C002F76E7 /* Utility */,
+				8FBC843C1E9D652D002F76E7 /* Controllers */,
+				8FBC843F1E9D6542002F76E7 /* Cell */,
 				8FBC84101E9D2AE5002F76E7 /* Main.storyboard */,
 				8FBC84131E9D2AE5002F76E7 /* Assets.xcassets */,
 				8FBC84151E9D2AE5002F76E7 /* LaunchScreen.storyboard */,
 				8FBC84181E9D2AE5002F76E7 /* Info.plist */,
+				8F360C701E9EB3C0006B9260 /* README.md */,
 			);
 			path = TvGuideRealmLab;
 			sourceTree = "<group>";
@@ -96,6 +159,69 @@
 			path = TvGuideRealmLabTests;
 			sourceTree = "<group>";
 		};
+		8FBC843C1E9D652D002F76E7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC840E1E9D2AE5002F76E7 /* ViewController.swift */,
+				8FBC84341E9D35D9002F76E7 /* ShowDetailViewController.swift */,
+				8FBC843A1E9D650B002F76E7 /* SavedViewController.swift */,
+				8FBC84381E9D60FB002F76E7 /* EpisodeViewController.swift */,
+				8FBC84471E9DD12F002F76E7 /* SavedShowViewController.swift */,
+				8FBC84491E9DD161002F76E7 /* SavedEpisodeViewController.swift */,
+				8FBC844F1E9DF594002F76E7 /* EpisodeListTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8FBC843D1E9D6537002F76E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC84401E9D6558002F76E7 /* Realm Models */,
+				8FBC842C1E9D2BDF002F76E7 /* Show.swift */,
+				8FBC84431E9D6617002F76E7 /* Episode.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8FBC843E1E9D653C002F76E7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC84301E9D2D7B002F76E7 /* ShowDataStore.swift */,
+				8FBC842E1E9D2D18002F76E7 /* TVMazeApiClient.swift */,
+				8FBC84511E9E6F1C002F76E7 /* RealmManager.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		8FBC843F1E9D6542002F76E7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC84361E9D5EFE002F76E7 /* EpisodeCell.swift */,
+				8FBC84321E9D2F7F002F76E7 /* ShowViewCell.swift */,
+				8FBC844B1E9DECBB002F76E7 /* ShowTableViewCell.swift */,
+				8FBC844D1E9DEF45002F76E7 /* EpisodeTableViewCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		8FBC84401E9D6558002F76E7 /* Realm Models */ = {
+			isa = PBXGroup;
+			children = (
+				8FBC84411E9D656A002F76E7 /* SavedShow.swift */,
+				8FBC84451E9D6637002F76E7 /* SavedEpisode.swift */,
+			);
+			name = "Realm Models";
+			sourceTree = "<group>";
+		};
+		A9F19424A90B9601C855CE24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752D848D6FAEA8AE2F57A6A2 /* Pods_TvGuideRealmLab.framework */,
+				FE999000ABA8A86AC7DFC3CD /* Pods_TvGuideRealmLabTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +229,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FBC84261E9D2AE5002F76E7 /* Build configuration list for PBXNativeTarget "TvGuideRealmLab" */;
 			buildPhases = (
+				C0AFC15DD547B2E16CD10858 /* [CP] Check Pods Manifest.lock */,
 				8FBC84051E9D2AE5002F76E7 /* Sources */,
 				8FBC84061E9D2AE5002F76E7 /* Frameworks */,
 				8FBC84071E9D2AE5002F76E7 /* Resources */,
+				DEA215A8599CBA68821DFBC0 /* [CP] Embed Pods Frameworks */,
+				D6CD5E517FFCB118FC4C1698 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FBC84291E9D2AE5002F76E7 /* Build configuration list for PBXNativeTarget "TvGuideRealmLabTests" */;
 			buildPhases = (
+				83FDC4198B81B91952D9C81E /* [CP] Check Pods Manifest.lock */,
 				8FBC84191E9D2AE5002F76E7 /* Sources */,
 				8FBC841A1E9D2AE5002F76E7 /* Frameworks */,
 				8FBC841B1E9D2AE5002F76E7 /* Resources */,
+				68E48C150AA4B548A62E78A7 /* [CP] Embed Pods Frameworks */,
+				5977E55992771BF621C43A1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,13 +328,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5977E55992771BF621C43A1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvGuideRealmLabTests/Pods-TvGuideRealmLabTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E48C150AA4B548A62E78A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvGuideRealmLabTests/Pods-TvGuideRealmLabTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83FDC4198B81B91952D9C81E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0AFC15DD547B2E16CD10858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CD5E517FFCB118FC4C1698 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvGuideRealmLab/Pods-TvGuideRealmLab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA215A8599CBA68821DFBC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TvGuideRealmLab/Pods-TvGuideRealmLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FBC84051E9D2AE5002F76E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBC84311E9D2D7B002F76E7 /* ShowDataStore.swift in Sources */,
+				8FBC84501E9DF594002F76E7 /* EpisodeListTableViewController.swift in Sources */,
+				8F360C711E9EB3C0006B9260 /* README.md in Sources */,
+				8FBC84441E9D6617002F76E7 /* Episode.swift in Sources */,
+				8FBC84391E9D60FB002F76E7 /* EpisodeViewController.swift in Sources */,
+				8FBC844A1E9DD161002F76E7 /* SavedEpisodeViewController.swift in Sources */,
+				8FBC842F1E9D2D18002F76E7 /* TVMazeApiClient.swift in Sources */,
+				8FBC84421E9D656A002F76E7 /* SavedShow.swift in Sources */,
+				8FBC844C1E9DECBB002F76E7 /* ShowTableViewCell.swift in Sources */,
+				8FBC842D1E9D2BDF002F76E7 /* Show.swift in Sources */,
+				8FBC84351E9D35D9002F76E7 /* ShowDetailViewController.swift in Sources */,
 				8FBC840F1E9D2AE5002F76E7 /* ViewController.swift in Sources */,
+				8FBC84521E9E6F1C002F76E7 /* RealmManager.swift in Sources */,
+				8FBC844E1E9DEF45002F76E7 /* EpisodeTableViewCell.swift in Sources */,
+				8FBC84371E9D5EFE002F76E7 /* EpisodeCell.swift in Sources */,
 				8FBC840D1E9D2AE5002F76E7 /* AppDelegate.swift in Sources */,
+				8FBC843B1E9D650B002F76E7 /* SavedViewController.swift in Sources */,
+				8FBC84461E9D6637002F76E7 /* SavedEpisode.swift in Sources */,
+				8FBC84331E9D2F7F002F76E7 /* ShowViewCell.swift in Sources */,
+				8FBC84481E9DD12F002F76E7 /* SavedShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +582,7 @@
 		};
 		8FBC84271E9D2AE5002F76E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F61EADF8764F635CFD32699 /* Pods-TvGuideRealmLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNAGBXF4G9;
@@ -352,6 +596,7 @@
 		};
 		8FBC84281E9D2AE5002F76E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BC6C4525FA58DF690A327F /* Pods-TvGuideRealmLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WNAGBXF4G9;
@@ -365,6 +610,7 @@
 		};
 		8FBC842A1E9D2AE5002F76E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32BA8FD1D109412A0EDCDCEB /* Pods-TvGuideRealmLabTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +626,7 @@
 		};
 		8FBC842B1E9D2AE5002F76E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57FA6B1CDB1ED21C43A22E6 /* Pods-TvGuideRealmLabTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +659,7 @@
 				8FBC84281E9D2AE5002F76E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FBC84291E9D2AE5002F76E7 /* Build configuration list for PBXNativeTarget "TvGuideRealmLabTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +668,7 @@
 				8FBC842B1E9D2AE5002F76E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
